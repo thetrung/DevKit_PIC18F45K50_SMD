@@ -1,0 +1,4 @@
+*.bak
+*.lck
+#auto_saved_files#
+DevKit_PIC18F-backups
