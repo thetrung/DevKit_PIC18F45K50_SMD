@@ -1,10 +1,13 @@
-DevKit PIC18F/USB-B
-=====================
-Basic USB Type-B DevKit I made to learn about PIC18F45XX microcontroller.
+DevKit PIC18F45K50-SMD / Mini-USB
+===================================
+Basic USB Type-B DevKit I made to learn about **PIC18F45K50** microcontroller.
 
 ![overview](https://github.com/thetrung/DevKit_PIC18F45K50_SMD/blob/master/Images/Sch_DevKit_PIC18F.png)
 
-**I actually tried to put all SMD components on front side only. Used Mini-USB instead of USB-B in previous THT version. So this isn't optimized by any mean, just simply a practice to experience what SMD PCB Design look like & what challenge compare to THT ? Although initial goal was same size to a DIP-40. But Port hints are so valuable to remove.**
+**PIC18F45K50-I/MV** will be used specifically as UQFN-40(5x5) instead DIP-40 package in previous THT version.
+
+I actually tried to put all SMD components on front side only. Used Mini-USB instead of USB-B in previous THT version. So this isn't optimized by any mean, just simply a practice to experience what SMD PCB Design look like & what challenge compare to THT ? Although initial goal was same size to a DIP-40. But Port hints are so valuable to remove.
+
 
 ### 1. Basic functionality :
 - USB-powered 5V supply.
@@ -25,8 +28,8 @@ Basic USB Type-B DevKit I made to learn about PIC18F45XX microcontroller.
       
 - Add Gyro sensor.
 - Add distance sensor.
-- Add 12V Booster support.
-- Add built-in UART w/ CH340.
+- Add HLK-PM01 Module & Relay.
+- Add built-in UART w/ CH340 !?
 - Add LCD2004 support, with/without I2C module.
 - Add WIFI/LoRA/Bluetooth by ESP32 support (?).
   
