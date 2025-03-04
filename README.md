@@ -1,10 +1,9 @@
 DevKit PIC18F45K50-SMD / Mini-USB
 ===================================
 Basic USB Type-B DevKit I made to learn about **PIC18F45K50** microcontroller.
+**PIC18F45K50-I/MV** will be used specifically as UQFN-40(5x5) instead DIP-40 package in previous THT version.
 
 ![overview](https://github.com/thetrung/DevKit_PIC18F45K50_SMD/blob/master/Images/Sch_DevKit_PIC18F.png)
-
-**PIC18F45K50-I/MV** will be used specifically as UQFN-40(5x5) instead DIP-40 package in previous THT version.
 
 I actually tried to put all SMD components on front side only. Used Mini-USB instead of USB-B in previous THT version. So this isn't optimized by any mean, just simply a practice to experience what SMD PCB Design look like & what challenge compare to THT ? Although initial goal was same size to a DIP-40. But Port hints are so valuable to remove.
 
