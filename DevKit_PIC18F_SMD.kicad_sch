@@ -5,7 +5,7 @@
 	(uuid "495af0d8-3788-4f6a-8ee9-f4c61668daf8")
 	(paper "A3")
 	(lib_symbols
-		(symbol "Connector:Conn_01x16_Socket"
+		(symbol "Connector:Conn_01x17_Socket"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -14,14 +14,14 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 20.32 0)
+				(at 0 22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x16_Socket"
+			(property "Value" "Conn_01x17_Socket"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -47,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x16, script generated"
+			(property "Description" "Generic connector, single row, 01x17, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -82,7 +82,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x16_Socket_1_1"
+			(symbol "Conn_01x17_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 20.32) (xy -0.508 20.32)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy -1.27 17.78) (xy -0.508 17.78)
@@ -267,6 +279,18 @@
 					(pts
 						(xy -1.27 -20.32) (xy -0.508 -20.32)
 					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 19.812)
+					(mid -0.5058 20.32)
+					(end 0 20.828)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -468,7 +492,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 17.78 0)
+					(at -5.08 20.32 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -486,7 +510,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 15.24 0)
+					(at -5.08 17.78 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -504,7 +528,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 12.7 0)
+					(at -5.08 15.24 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -522,7 +546,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 10.16 0)
+					(at -5.08 12.7 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -540,7 +564,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 7.62 0)
+					(at -5.08 10.16 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -558,7 +582,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 7.62 0)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -576,7 +600,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -594,7 +618,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -612,7 +636,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_9"
 						(effects
@@ -630,7 +654,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_10"
 						(effects
@@ -648,7 +672,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_11"
 						(effects
@@ -666,7 +690,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -10.16 0)
+					(at -5.08 -7.62 0)
 					(length 3.81)
 					(name "Pin_12"
 						(effects
@@ -684,7 +708,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -12.7 0)
+					(at -5.08 -10.16 0)
 					(length 3.81)
 					(name "Pin_13"
 						(effects
@@ -702,7 +726,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -15.24 0)
+					(at -5.08 -12.7 0)
 					(length 3.81)
 					(name "Pin_14"
 						(effects
@@ -720,7 +744,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -17.78 0)
+					(at -5.08 -15.24 0)
 					(length 3.81)
 					(name "Pin_15"
 						(effects
@@ -738,7 +762,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -20.32 0)
+					(at -5.08 -17.78 0)
 					(length 3.81)
 					(name "Pin_16"
 						(effects
@@ -748,6 +772,24 @@
 						)
 					)
 					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -20.32 0)
+					(length 3.81)
+					(name "Pin_17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4355,6 +4397,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 180.34) (xy 109.22 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5afc58c7-26e3-461e-a51b-76f10f8fca1d")
+	)
+	(wire
+		(pts
 			(xy 135.89 119.38) (xy 130.81 119.38)
 		)
 		(stroke
@@ -4582,6 +4634,16 @@
 			(type default)
 		)
 		(uuid "818b551d-1c34-453d-8a16-fda77ee7d38d")
+	)
+	(wire
+		(pts
+			(xy 219.71 170.18) (xy 228.6 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82504c3f-8a9e-4b8b-860d-e8403bbf69a0")
 	)
 	(wire
 		(pts
@@ -5982,6 +6044,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 119.38 180.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f571c76-5aa7-4c46-a3f5-38dc264cba2c")
+		(property "Reference" "#PWR017"
+			(at 115.57 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 118.364 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 119.38 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12293e07-7ad3-48e4-9208-5b9b72879601")
+		)
+		(instances
+			(project "DevKit_PIC18F_SMD"
+				(path "/495af0d8-3788-4f6a-8ee9-f4c61668daf8"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 194.31 30.48 0)
 		(unit 1)
@@ -6390,6 +6517,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 219.71 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43e23d81-7db6-4eb9-be3d-9204dd31662f")
+		(property "Reference" "#PWR011"
+			(at 219.71 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.71 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7f7cf7f-32e7-45db-bc4e-02375cee2d53")
+		)
+		(instances
+			(project "DevKit_PIC18F_SMD"
+				(path "/495af0d8-3788-4f6a-8ee9-f4c61668daf8"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 194.31 24.13 0)
 		(unit 1)
@@ -6586,8 +6779,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x16_Socket")
-		(at 233.68 147.32 0)
+		(lib_id "Connector:Conn_01x17_Socket")
+		(at 233.68 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6595,15 +6788,6 @@
 		(dnp no)
 		(uuid "628d498e-a48d-42e6-b402-28ae56e9b850")
 		(property "Reference" "J5"
-			(at 234.696 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RIGHT_PORT"
 			(at 234.696 149.86 0)
 			(effects
 				(font
@@ -6612,8 +6796,17 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical"
-			(at 233.68 147.32 0)
+		(property "Value" "RIGHT_PORT"
+			(at 234.696 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x17_P2.54mm_Vertical"
+			(at 233.68 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6622,7 +6815,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 233.68 147.32 0)
+			(at 233.68 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6630,8 +6823,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x16, script generated"
-			(at 233.68 147.32 0)
+		(property "Description" "Generic connector, single row, 01x17, script generated"
+			(at 233.68 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6687,8 +6880,11 @@
 		(pin "15"
 			(uuid "7dffb6c0-4266-407b-ad15-03a3fd1b9859")
 		)
+		(pin "17"
+			(uuid "6a8a057c-9dd3-49ed-bca0-1fb7fc627ada")
+		)
 		(instances
-			(project ""
+			(project "DevKit_PIC18F_SMD"
 				(path "/495af0d8-3788-4f6a-8ee9-f4c61668daf8"
 					(reference "J5")
 					(unit 1)
@@ -6902,8 +7098,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x16_Socket")
-		(at 104.14 157.48 0)
+		(lib_id "Connector:Conn_01x17_Socket")
+		(at 104.14 160.02 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6912,15 +7108,6 @@
 		(dnp no)
 		(uuid "8f5bae96-ce3c-4a45-a7ed-655aafe9b828")
 		(property "Reference" "J6"
-			(at 103.124 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LEFT_PORT"
 			(at 103.124 160.02 0)
 			(effects
 				(font
@@ -6929,8 +7116,17 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical"
-			(at 104.14 157.48 0)
+		(property "Value" "LEFT_PORT"
+			(at 103.124 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x17_P2.54mm_Vertical"
+			(at 104.14 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6939,7 +7135,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 157.48 0)
+			(at 104.14 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6947,8 +7143,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x16, script generated"
-			(at 104.14 157.48 0)
+		(property "Description" "Generic connector, single row, 01x17, script generated"
+			(at 104.14 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7003,6 +7199,9 @@
 		)
 		(pin "15"
 			(uuid "2a3b784a-82f4-4abd-88e6-7e155374dccc")
+		)
+		(pin "17"
+			(uuid "294d82bc-7908-4381-ae56-4b5fe9374aa0")
 		)
 		(instances
 			(project "DevKit_PIC18F_SMD"
