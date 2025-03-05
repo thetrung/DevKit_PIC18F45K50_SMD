@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PIC18F45K50_IP")(type "KiCad")(uri "${KIPRJMOD}/PIC18F45K50_IP.kicad_sym")(options "")(descr ""))
+)
